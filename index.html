@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next muse use-motion" lang="zh">
+<head><meta name="generator" content="Hexo 3.8.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2">
+
+<link rel="stylesheet" href="/css/main.css?v=7.1.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.1.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.1.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=7.1.0" color="#222">
+
+
+
+
+
+
+
+<script id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.1.0',
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false,"dimmer":false},
+    back2top: true,
+    back2top_sidebar: false,
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="zh">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Hexo">
+
+
+
+
+
+  
+  
+  <link rel="canonical" href="http://yoursite.com/">
+
+
+
+<script id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>Hexo</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-title { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left 
+  page-home">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home menu-item-active">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+
+    
+    
+    
+      
+    
+
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+
+      
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+</nav>
+
+
+
+  
+
+
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+  <section id="posts" class="posts-expand">
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/15/Unix-Like-Windows-1-MSYS2-MinGW-及-Cygwin/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="cscdannix">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/04/15/Unix-Like-Windows-1-MSYS2-MinGW-及-Cygwin/" class="post-title-link" itemprop="url">Untitled</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-04-15 21:40:06 / Modified: 21:38:56" itemprop="dateCreated datePublished" datetime="2019-04-15T21:40:06+08:00">2019-04-15</time>
+            
+
+            
+              
+
+              
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h1 id="Unix-Like-Windows-1-MSYS2-MinGW-及-Cygwin"><a href="#Unix-Like-Windows-1-MSYS2-MinGW-及-Cygwin" class="headerlink" title="Unix-Like Windows ( 1 ) MSYS2, MinGW 及 Cygwin"></a>Unix-Like Windows ( 1 ) MSYS2, MinGW 及 Cygwin</h1><p><a href="/Wk3geTOVRK6VMB9RKIQJBA">:arrow_up: 回到「電腦設定與環境架設紀錄本」目錄</a></p>
+<p>要架設 Unix-Like 的作業環境，主要使用 <em>MSYS2</em> ( 內建 <em>Mingw</em> ) 與 <em>Cygwin</em> 還有 <em>Git for Windows</em> ，介面使用 <em>Cmder</em>。</p>
+<p>若要使用更完整的 Unix 環境，請去商店安裝 <em>Windows Subsysten for Linyx ( WSL )</em> ，或是使用 <em>Docker</em>、<em>VirtualBox</em> 。</p>
+<h2 id="MSYS2"><a href="#MSYS2" class="headerlink" title="MSYS2"></a>MSYS2</h2><p><em>Msys2</em> 除了提供 <em>Unix-like</em> 的環境以外，可以用 <em>pacman</em> 這個 <em>package manager</em> 來管理與更新軟體。原本已經架好了 <em>Mingw-w64</em>，但發現了這個更加好用，於是改用這個。</p>
+<p>這邊的步驟完全參考「<a href="https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&amp;-MSYS2" target="_blank" rel="noopener">Installing GCC &amp; MSYS2 - Github</a>」，裡面寫得非常清楚也非常標準。</p>
+<h3 id="安裝-Msys2"><a href="#安裝-Msys2" class="headerlink" title="安裝 Msys2"></a>安裝 Msys2</h3><p>首先，下載並安裝 <a href="https://www.msys2.org/" target="_blank" rel="noopener"><em>msys2-x86_64</em></a>。</p>
+<blockquote>
+<p>我安裝於 <code>D:\EnvD\msys64</code> 。 [time=Tue, Mar 12, 2019 4:02 PM]</p>
+</blockquote>
+<p>安裝完畢，在 <em>msys2</em> 的 <em>shell</em> 下達：<code>pacman -Syuu</code>，同步資料庫並更新系統的軟體包 ( 不在預定軟體庫內的「本機」軟體包 )。</p>
+<blockquote>
+<p><code>pacman -Syu</code> 與 <code>pacman -Syuu</code> 不同，新安裝環境時兩個指令好像都有人用。<br> <code>-uu</code> 如果本地比遠端新會強迫進行 <em>downgrade</em> 。詳細請 <em>google</em> 或 <em>man</em>。</p>
+</blockquote>
+<p>跑完指令，會提示<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">警告：terminate MSYS2 without returning to shell and check for updates again</span><br><span class="line">警告：for example close your terminal window instead of calling exit*</span><br></pre></td></tr></table></figure></p>
+<p>這時，重啟 <em>msys2</em>，並再次下達 <code>pacman -Syuu</code>，會將其餘軟體包安裝完畢。</p>
+<h3 id="gcc-g-環境架設"><a href="#gcc-g-環境架設" class="headerlink" title="gcc/g++ 環境架設"></a>gcc/g++ 環境架設</h3><p>下達以下指令將 <em>mingw</em> 的 <em>gcc</em> 環境架設起來。<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">pacman -S --needed base-devel mingw-w64-i686-toolchain mingw-w64-x86_64-toolchain \</span><br><span class="line">                    git subversion mercurial \</span><br><span class="line">                    mingw-w64-i686-cmake mingw-w64-x86_64-cmake</span><br></pre></td></tr></table></figure></p>
+<blockquote>
+<p><code>--needed</code> 參數可以避免重新安裝已是最新的軟體。</p>
+<p><code>base-devel</code> 是包含開發所需必要軟體的 <em>package group</em>。這個 <em>group</em> 似乎也包含 <code>base</code> 這個 <em>package group</em>。</p>
+</blockquote>
+<h3 id="加入-PATH"><a href="#加入-PATH" class="headerlink" title="加入 PATH"></a>加入 PATH</h3><p>依照「<a href="https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&amp;-MSYS2" target="_blank" rel="noopener">Installing GCC &amp; MSYS2 - Github</a>」所寫，將 <code>D:\...\msys64\mingw64\bin</code> 及 <code>D:\...\msys64\mingw32\bin</code> <strong>按照順序</strong> 加入 <em>PATH</em> 之中。之後請務必檢查指令搜尋順序是否正確。</p>
+<blockquote>
+<p>我是 <code>D:\EnvD\msys64\mingw64\bin</code> 及 <code>D:\EnvD\msys64\mingw32\bin</code> 。</p>
+</blockquote>
+<p>然後在 <em>msys64/mingw64.ini</em> 及 <em>mingw32.ini</em> 之中設定 「 MSYS2_PATH_TYPE=inherit 」( 將註解拔掉 )，可以允許繼承系統的 <em>PATH</em> 設定。<em>msys2.ini</em> 的就不要動，保持 <em>msys2</em> 乾淨。</p>
+<h3 id="gcc-g-測試"><a href="#gcc-g-測試" class="headerlink" title="gcc/g++ 測試"></a>gcc/g++ 測試</h3><p><em>Windows Terminal CMD</em> 或 <em>msys64/mingw64.exe</em>：<br><figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">&gt; gcc --<span class="keyword">version</span></span><br><span class="line">gcc (Rev2, Built by MSYS2 project) <span class="number">8.3</span>.0</span><br><span class="line">Copyright (C) <span class="number">2018</span> Free Software Foundation, Inc.</span><br><span class="line">This <span class="keyword">is</span> free software; see the source <span class="keyword">for</span> copying conditions.  There <span class="keyword">is</span> NO</span><br><span class="line">warranty; not even <span class="keyword">for</span> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span><br><span class="line"></span><br><span class="line">&gt; where gcc</span><br><span class="line">D:\EnvD\msys64\mingw64\bin\gcc.exe</span><br><span class="line">D:\EnvD\msys64\mingw32\bin\gcc.exe</span><br></pre></td></tr></table></figure></p>
+<p>記得檢查 <em>gcc</em> 指令搜尋順序是先 <em>mingw64</em> 接著才是 <em>mingw32</em>。</p>
+<p><em>msys64/mingw32.exe</em>：<br><figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">$ gcc --<span class="keyword">version</span></span><br><span class="line">gcc.exe (Rev1, Built by MSYS2 project) <span class="number">7.4</span>.0</span><br><span class="line">Copyright (C) <span class="number">2017</span> Free Software Foundation, Inc.</span><br><span class="line">This <span class="keyword">is</span> free software; see the source <span class="keyword">for</span> copying conditions.  There <span class="keyword">is</span> NO</span><br><span class="line">warranty; not even <span class="keyword">for</span> MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.</span><br><span class="line"></span><br><span class="line">$ where gcc</span><br><span class="line">D:\EnvD\msys64\mingw32\bin\gcc.exe</span><br></pre></td></tr></table></figure></p>
+<h3 id="參考資料"><a href="#參考資料" class="headerlink" title="參考資料"></a>參考資料</h3><ul>
+<li><a href="https://github.com/orlp/dev-on-windows/wiki/Installing-GCC--&amp;-MSYS2" target="_blank" rel="noopener">Installing GCC &amp; MSYS2 - github orlp/dev-on-windows</a><blockquote>
+<p>本篇依循的 wiki。</p>
+</blockquote>
+</li>
+<li><a href="https://www.archlinux.org/pacman/pacman.8.html" target="_blank" rel="noopener">pacman(8) Manual Page</a></li>
+<li><a href="https://wiki.archlinux.org/index.php/Package_group" target="_blank" rel="noopener">Package group - Arch Linux wiki</a></li>
+<li><a href="https://www.archlinux.org/groups/" target="_blank" rel="noopener">Package Groups Overview - Arch Linux packages</a></li>
+</ul>
+<h3 id="Clang-amp-LLVM-Optional"><a href="#Clang-amp-LLVM-Optional" class="headerlink" title="Clang &amp; LLVM ( Optional )"></a>Clang &amp; LLVM ( Optional )</h3><p>在 <code>msys2</code> 中下達 <code>pacman -S mingw-w64-x86_64-clang mingw-w64-i686-clang</code> ，接著提示按下 y 全部安裝。</p>
+<h3 id="clang-clang-測試"><a href="#clang-clang-測試" class="headerlink" title="clang/clang++ 測試"></a>clang/clang++ 測試</h3><p><em>msys64/mingw64.exe</em>：<br><figure class="highlight d"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">$ clang++ --<span class="keyword">version</span></span><br><span class="line">clang <span class="keyword">version</span> <span class="number">7.0</span>.1 (tags/RELEASE_701/<span class="keyword">final</span>)</span><br><span class="line">Target: x86_64-w64-windows-gnu</span><br><span class="line">Thread model: posix</span><br><span class="line">InstalledDir: D:\EnvD\msys64\mingw64\bin</span><br><span class="line"></span><br><span class="line">$ where clang++</span><br><span class="line">D:\EnvD\msys64\mingw64\bin\clang++.exe</span><br><span class="line">D:\EnvD\msys64\mingw32\bin\clang++.exe</span><br></pre></td></tr></table></figure></p>
+<p>&nbsp;</p>
+<h2 id="MinGW-以下可以不用，直接使用-Msys2-所安裝的即可"><a href="#MinGW-以下可以不用，直接使用-Msys2-所安裝的即可" class="headerlink" title="MinGW ( 以下可以不用，直接使用 Msys2 所安裝的即可 )"></a>MinGW ( 以下可以不用，直接使用 Msys2 所安裝的即可 )</h2><blockquote>
+<p><a href="https://mingw-w64.org/doku.php" target="_blank" rel="noopener"><em>mingw-w64 official site</em></a><br><a href="http://www.mingw.org/" target="_blank" rel="noopener"><em>MinGW official site</em></a>、<a href="https://sourceforge.net/projects/mingw/" target="_blank" rel="noopener"><em>MinGW Sourceforge download site</em></a></p>
+</blockquote>
+<p>下載並安裝 「<a href="https://sourceforge.net/projects/mingw-w64/" target="_blank" rel="noopener"><em>MinGW-w64 - for 32 and 64 bit Windows - Sourceforge</em></a>」。</p>
+<p>網路寫 <em>MinGW-w64</em> 在運行速度上比一般的 <em>MinGW</em> 來的快，更新速度也較快。<br>見：「<a href="https://stackoverflow.com/questions/25582110/what-is-the-difference-between-mingw-mingw-w64-and-mingw-builds" target="_blank" rel="noopener"><em>What is the difference between MinGW, MinGW-w64 and MinGW-builds? - StackOverflow</em></a>」、「<a href="https://www.zhihu.com/question/39952667" target="_blank" rel="noopener"><em>MinGW、MinGW-w64 与TDM-GCC 应该如何选择？</em></a>」。</p>
+<blockquote>
+<p>我安裝於 <code>D:\EnvD\mingw-w64\</code> 。 [time=Mon, Mar 11, 2019 11:07 AM]</p>
+</blockquote>
+<p>最後，將安裝位置底下的 <em>bin</em> 資料夾路徑加入 <em>PATH</em> 中。</p>
+<blockquote>
+<p><code>D:\EnvD\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin</code></p>
+</blockquote>
+<h3 id="gcc-g-測試-1"><a href="#gcc-g-測試-1" class="headerlink" title="gcc/g++ 測試"></a>gcc/g++ 測試</h3><p><em>Windows Terminal CMD</em>：<br><figure class="highlight cmd"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">&gt; gcc --version</span><br><span class="line">gcc (x86_64-posix-seh-rev0, Built by MinGW-W64 project) <span class="number">8</span>.<span class="number">1</span>.<span class="number">0</span></span><br><span class="line">Copyright (C) <span class="number">2018</span> Free Software Foundation, Inc.</span><br><span class="line">This is free software; see the source <span class="keyword">for</span> copying conditions.  There is NO</span><br><span class="line">warranty; <span class="keyword">not</span> even <span class="keyword">for</span> MERCHANTABILITY or FITNESS <span class="keyword">FOR</span> A PARTICULAR PURPOSE.</span><br><span class="line"></span><br><span class="line">&gt; where gcc</span><br><span class="line"><span class="function">D:\<span class="title">EnvD</span>\<span class="title">mingw</span>-<span class="title">w64</span>\<span class="title">x86_64</span>-8.1.0-<span class="title">posix</span>-<span class="title">seh</span>-<span class="title">rt_v6</span>-<span class="title">rev0</span>\<span class="title">mingw64</span>\<span class="title">bin</span>\<span class="title">gcc.exe</span></span></span><br></pre></td></tr></table></figure></p>
+<p>&nbsp;</p>
+<h2 id="Cygwin"><a href="#Cygwin" class="headerlink" title="Cygwin"></a>Cygwin</h2><p>下載並安裝 <a href="https://www.cygwin.com/" target="_blank" rel="noopener"><em>Cygwin</em></a>。</p>
+<blockquote>
+<p>我安裝於 <code>D:\EnvD\cygwin64</code> 。 [time=Mon, Mar 11, 2019 11:07 AM]</p>
+</blockquote>
+<p>設定 local package 位置，好像沒有差，下一步。<br><em>Choose A download Site</em> 這邊可以透過 <a href="https://cygwin.com/mirrors.html" target="_blank" rel="noopener"><em>Cygwin Mirror Sites</em></a> 來找尋台灣的鏡像站。這邊我選擇 <em><a href="http://ftp.cse.yzu.edu.tw" target="_blank" rel="noopener">http://ftp.cse.yzu.edu.tw</a></em> 。</p>
+<p>接下來選擇要安裝的 <em>package</em> ，若選擇全安裝，可以參考這個網站「<a href="https://stackoverflow.com/questions/21230657/what-is-the-current-full-install-size-of-cygwin" target="_blank" rel="noopener"><em>What is the current full install size of Cygwin? StackOverflow</em></a>」刪除不必要的套件。</p>
+<blockquote>
+<p>但是一個一個檢查一個一個取消勾選真的超級累，沒有其他方式嗎？<br>有喔！可以用後面安裝的 <code>cyg-apt</code> 來移除或增加 <em>package</em> 喔~</p>
+</blockquote>
+<p>建議先以 <em>default</em> 完成一次最小的安裝，再重新點擊 setup 執行 <em>package</em> 的安裝。否則如果遭遇如以下問題就要等很久才能測試。</p>
+<p>在安裝 <em>package</em> 的時候，進度卡在如下圖 “<em>0/Perpetual</em>“ 的地方，這個查了些資料，照做了但是後續再次安裝其餘套件時還會再次發生，<del>所以目前無解。每次都直接按取消即可。</del> 結果，照了<em>CSDN</em> 上說的，先按取消再按否，魔法就發生了！<br>看這邊：<a href="https://bbs.csdn.net/topics/391015346" target="_blank" rel="noopener">安装Cygwin时没反应了 - CSDN</a></p>
+<blockquote>
+<p>看到另一篇說這是只有在 <em>http</em> 的 <em>Mirror</em> 才會發生，於是我換成 <em>ftp</em> 的試試。結果，等了一陣子還真的好了！但真的要等一陣子~</p>
+</blockquote>
+<p><img src="https://i.imgur.com/GYvq69C.png &quot;Cygwin-install-hang&quot; =500x350" alt="Cygwin-install-hang"></p>
+<blockquote>
+<p>其他資料：<a href="https://stackoverflow.com/questions/20917568/cygwin-setup-exe-hangs-during-install-windows-8-how-should-i-continue" target="_blank" rel="noopener">Cygwin setup.exe hangs during install Windows 8? How should I continue? - StackOverflow</a></p>
+</blockquote>
+<p>記得得安裝上 <em>devel category</em> 裡的 <em>gcc</em>、<em>g++</em>、<em>make</em> 套件 ( 非 <em>cygwin</em> 內的 <em>mingw package</em> )。</p>
+<blockquote>
+<p>如若要安裝後面的 <code>apt-cyg</code> ，請記得安裝 <code>lynx</code> 或 <code>wget</code>( <code>apt-cyg</code> 官網是示範 <code>lynx</code> )。</p>
+</blockquote>
+<p>:::warning<br>這邊我們不將 <code>D:\...\cygwin64\bin</code> 加入 <em>PATH</em> 之中，因為我們同時安裝了 <em>mingw</em>，為確保兩者的 <em>gcc</em> 等不會混用，我們只在 <em>PATH</em> 之中加入 <em>mingw</em>。若要使用 <em>cygwin</em> 的 <em>gcc</em> 等，請使用 <em>Cygwin64 Terminial</em>。<br>:::</p>
+<h3 id="gcc-g-測試-2"><a href="#gcc-g-測試-2" class="headerlink" title="gcc/g++ 測試"></a>gcc/g++ 測試</h3><p><em>Cygwin64 Terminal</em>：<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">$ gcc -v</span><br><span class="line">使用內建 specs。</span><br><span class="line">COLLECT_GCC=gcc</span><br><span class="line">COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-cygwin/7.4.0/lto-wrapper.exe</span><br><span class="line">目的：x86_64-pc-cygwin</span><br><span class="line">以下略...</span><br><span class="line"></span><br><span class="line">$ <span class="built_in">where</span> gcc</span><br><span class="line">D:\EnvD\cygwin64\bin\gcc.exe</span><br><span class="line">D:\EnvD\mingw-w64\x86_64-8.1.0-posix-seh-rt_v6-rev0\mingw64\bin\gcc.exe</span><br></pre></td></tr></table></figure></p>
+<h3 id="安裝-apt-cyg"><a href="#安裝-apt-cyg" class="headerlink" title="安裝 apt-cyg"></a>安裝 <em>apt-cyg</em></h3><p><em>Cygwin</em> 沒有自己的 <em>package manager</em>，如若要安裝或更新 <em>package</em> 的話，得用安裝 <em>Cygwin</em> 所下載的 <em>setup.exe</em> 安裝檔。直接點開有 GUI 介面，可以點選升級；或是使用 Windows 的 CMD 呼叫 <em>setup-x86_64.exe -q -P</em> 接一些其他參數及所要安裝的 <em>package</em>，非常麻煩~</p>
+<p>但！自從有了第三方的 <a href="https://github.com/transcode-open/apt-cyg" title="transcode-open/apt-cyg - github" target="_blank" rel="noopener"><em>apt-cyg</em></a>，一切變得非常舒爽！</p>
+<blockquote>
+<p>不過 <code>apt-cyg</code> 好像沒有 <code>upgrade</code> 選項 …</p>
+</blockquote>
+<p>官網安裝方式使用 <code>lynx</code>，若沒安裝請先使用 <em>setup.exe</em> 安裝，或是找其他安裝方式例如 <code>wget</code>。<br><figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">lynx -<span class="built_in">source</span> rawgit.com/transcode-open/apt-cyg/master/apt-cyg &gt; apt-cyg</span><br><span class="line">install apt-cyg /bin</span><br></pre></td></tr></table></figure></p>
+<p>接著移除安裝檔 ( 應該不會怎樣吧？ )<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm apt-cyg</span><br></pre></td></tr></table></figure></p>
+<p>這就完成啦~!!</p>
+<p>只要下 <code>apt-cyg install &lt;package&gt;</code> 就可以順順的安裝了呢！</p>
+<p>發現，只要利用 <code>apt-cyg remove &lt;package&gt;</code> 就可以把那些無用的 <em>package</em> 給移除了！不用再慢慢取消勾選到眼殘了~~~<br>例如：<code>apt-cyg remove `apt-cyg list gnome`</code></p>
+<p>在更新及安裝之前，記得先下 <code>apt-cyg update</code> 更新 <code>package list</code> 喔！</p>
+<h3 id="參考資料-1"><a href="#參考資料-1" class="headerlink" title="參考資料"></a>參考資料</h3><ul>
+<li><a href="https://www3.ntu.edu.sg/home/ehchua/programming/howto/Cygwin_HowTo.html" target="_blank" rel="noopener">Cygwin &amp; MinGW (for Windows) - How To Install and Get Started</a></li>
+<li><a href="https://www3.ntu.edu.sg/home/ehchua/programming/cpp/gcc_make.html" target="_blank" rel="noopener">GCC and Make - Compiling, Linking and Building C/C++ Applications</a></li>
+</ul>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/04/15/hello-world/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="cscdannix">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                
+                <a href="/2019/04/15/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2019-04-15 00:33:57" itemprop="dateCreated datePublished" datetime="2019-04-15T00:33:57+08:00">2019-04-15</time>
+            
+
+            
+          </span>
+
+          
+
+          
+            
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+
+          
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      
+    
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+  </section>
+
+  
+
+
+          </div>
+          
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+
+      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">cscdannix</p>
+              <div class="site-description motion-element" itemprop="description"></div>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/">
+                
+                    <span class="site-state-item-count">2</span>
+                    <span class="site-state-item-name">posts</span>
+                  </a>
+                </div>
+              
+
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  
+                    
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">1</span>
+                    <span class="site-state-item-name">tags</span>
+                  
+                </div>
+              
+            </nav>
+          
+
+          
+
+          
+
+          
+
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </div>
+
+      
+
+      
+
+    </div>
+  </aside>
+  
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">cscdannix</span>
+
+  
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.8.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.1.0</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+    
+
+    
+  </div>
+
+  
+
+<script>
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+
+  
+
+
+  <script src="/js/utils.js?v=7.1.0"></script>
+
+  <script src="/js/motion.js?v=7.1.0"></script>
+
+
+
+  
+  
+
+
+  <script src="/js/schemes/muse.js?v=7.1.0"></script>
+
+
+
+  
+
+  
+
+
+  <script src="/js/next-boot.js?v=7.1.0"></script>
+
+
+  
+
+  
+
+  
+
+  
+
+
+
+  
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
